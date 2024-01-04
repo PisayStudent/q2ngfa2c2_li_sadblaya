@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 213, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    margin-top: 10vh;
+    background-color: white;
+    border-radius: 12px;
+    width: 23.5vw;
+    padding: 20px;
+    box-shadow: 10px 10px;
+}
+h3{
+    display: block;
+    background-color: rgb(255, 213, 0);
+    width: 5.5vw;
+    padding: 3px;
+    border-radius: 2px;
+}
+.box:hover{
+    box-shadow: 15px 15px;
+}
+h1:hover{
+    color: rgb(255, 213, 0);
+}
+.name{
+    display: inline-block;
+}
